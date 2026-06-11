@@ -33,6 +33,7 @@ outputs/models/
 # ── Figuras generadas ─────────────────────────────────────────────
 #outputs/figures/
 #outputs/results/
+!outputs/results/*.csv
 outputs/coverage/
 
 # ── Jupyter ───────────────────────────────────────────────────────
