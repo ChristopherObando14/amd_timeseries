@@ -31,8 +31,8 @@ data/processed/
 outputs/models/
 
 # ── Figuras generadas ─────────────────────────────────────────────
-outputs/figures/
-outputs/results/
+#outputs/figures/
+#outputs/results/
 outputs/coverage/
 
 # ── Jupyter ───────────────────────────────────────────────────────
