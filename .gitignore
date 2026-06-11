@@ -1,0 +1,60 @@
+# ── Entorno virtual ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Variables de entorno ──────────────────────────────────────────
+.env
+*.env.local
+
+# ── Datos y modelos pesados ───────────────────────────────────────
+*.csv
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.feather
+data/raw/
+data/processed/
+outputs/models/
+
+# ── Figuras generadas ─────────────────────────────────────────────
+outputs/figures/
+outputs/results/
+outputs/coverage/
+
+# ── Jupyter ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── TensorFlow / Keras ────────────────────────────────────────────
+saved_model/
+*.pb
+variables/
+checkpoints/
+logs/
+
+# ── IDEs ──────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Testing ───────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
